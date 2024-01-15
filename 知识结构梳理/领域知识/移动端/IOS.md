@@ -1,0 +1,16 @@
+- XCode结构目录
+    - AppDelegate：App生命周期、Sence场景管理
+    - SceneDelegate：Sence场景管理（前后台切换）
+    - ViewController：默认根控制器
+    - Main：默认故事板
+    - Assets：App所有图片等资源集合
+    - LaunchScreen：App启动时调用的故事板
+    - Info：配置信息
+- 应用包
+    - 应用包只不过是硬盘上包含一组文件的目录。在 Mac OS X 中，应用包可以用来集合应用运 行所需的所有文件。这包括可执行程序、图片、音频文件和用户界面资源等
+    - Contents/MacOS 目录中包含 可执行程序
+- ARC自动引用计数
+    - Clang编译器的一项内存管理特性为OC和Swift提供的自动引用计数
+    - 在编译时，它插入到目标代码中的 `retain` 和 `release` 消息，在运行时增加和减少引用计数，并在引用计数为零时标记这些对象进行释放。
+    - 也就是说在OC中不需要手动使用[object release]来释放对象在堆的引用
+    - 可通过Build Settings修改Objective-C Automatic Reference Counting 关闭或开启

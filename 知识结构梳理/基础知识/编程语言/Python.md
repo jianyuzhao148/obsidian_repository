@@ -1,0 +1,4 @@
+- 虚拟环境
+    - 创建虚拟环境<产生env目录>：python -m venv env
+    - 激活虚拟环境：执行env/Scripts/Activate.bat/.ps1<根据终端选择>
+    - 在虚拟环境中安装依赖<一定要激活虚拟环境>：pip install psutil<依赖名> 或者 python -m pip install psutil<依赖名>

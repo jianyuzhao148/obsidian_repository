@@ -1,0 +1,6 @@
+- NPM
+    - npm安装模块：`npm install 模块名 [-g]`
+    - 列出已安装npm：`npm list [-g]`
+    - 获取全局npm安装位置：`npm config get prefix`
+    - 获取npm配置：`npm config ls`
+    - 本地使用全局模块：`npm link 需要连接全局模块`
