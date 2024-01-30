@@ -6,3 +6,4 @@
 - powershell代理：
     - `netsh winhttp show proxy`
     - `netsh winhttp set proxy "127.0.0.1:7890"`
+bat脚本变量赋值要不能有空格
